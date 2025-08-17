@@ -83,6 +83,18 @@ export default function HomePage() {
           )}
         </div>
       </div>
+      {/* Footer */}
+      <footer className="mt-10 text-center text-gray-600">
+        <a
+          href="https://www.linkedin.com/in/thepremkumar/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          Contact Us Mr PK
+        </a>
+      </footer>
     </div>
+    
   );
 }
