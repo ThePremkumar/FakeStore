@@ -44,7 +44,7 @@ export default function FilterBar({
         <input
           type="range"
           min="0"
-          max="30000"
+          max="300"
           value={priceRange[1]}
           onChange={(e) => setPriceRange([0, Number(e.target.value)])}
           className="w-full"
