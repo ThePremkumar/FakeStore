@@ -21,7 +21,7 @@ export default function HomePage() {
       // Convert USD to INR (approx 1 USD = 83 INR)
       const converted = productData.map((p) => ({
         ...p,
-        price: Math.round(p.price * 83),
+        price: (p.price).toFixed(2),
       }));
       setProducts(converted);
       setCategories(categoryData);

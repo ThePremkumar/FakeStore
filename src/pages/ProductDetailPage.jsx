@@ -18,8 +18,8 @@ export default function ProductDetailPage() {
   if (loading) return <p className="text-center mt-10">Loading product...</p>;
   if (!product) return <p className="text-center mt-10">Product not found</p>;
 
-  const usdToInr = 83;
-  const priceInInr = (product.price * usdToInr).toFixed(2);
+  // const usdToInr = 83;
+  const priceInInr = (product.price ).toFixed(2);
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
