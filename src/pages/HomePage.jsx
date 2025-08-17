@@ -9,7 +9,7 @@ export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(true);
-  const [priceRange, setPriceRange] = useState([0, 30000]);
+  const [priceRange, setPriceRange] = useState([0, 300]);
 
   useEffect(() => {
     Promise.all([
